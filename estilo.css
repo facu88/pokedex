@@ -1,0 +1,327 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.pokedex {
+  width: 800px;
+  height: 550px;
+  /* background: rgb(245, 7, 101); */
+  display: flex;
+  margin: 100px
+
+}
+
+.pokeleft {
+  width: 400px;
+  height: 550px;
+  background: rgb(245, 7, 101);
+  border: 3px solid black;
+  border-radius: 30px 0px 0px 30px
+}
+
+.circulos {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 3px solid black;
+  padding: 20px;
+  border-radius: 30px 0px 0px 0px
+}
+
+.circuloNegro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  background: black
+}
+
+.circuloAzul {
+  /* position: relative; */
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid rgba(224, 221, 231, 255);
+  background: rgba(51, 152, 206, 255);
+}
+
+.circuloRojo {
+  display: inline-flex;
+  margin-left: 15px;
+  width: 10px;
+  height: 10px;
+  /* clip-path: circle(20.3% at 50% 50%); */
+  border: 1px solid black;
+  border-radius: 50%;
+  background: rgba(223, 23, 16, 255)
+}
+
+.circuloAmarillo {
+  width: 20px;
+  height: 20px;
+  clip-path: circle(20.3% at 50% 50%);
+  background: rgba(255, 212, 114, 255)
+}
+
+.circuloVerde {
+  width: 20px;
+  height: 20px;
+  clip-path: circle(20.3% at 50% 50%);
+  background: rgba(50, 204, 97, 255)
+}
+
+.cuerpoPokedexLeft {
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.cuerpoPantalla {
+  margin: 20px;
+  margin-left: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 250px;
+  clip-path: polygon(20% 0%, 80% 0%, 100% 0, 100% 80%, 100% 100%, 20% 100%, 0% 80%, 0 0);
+  background-color: white;
+  border: 2px solid black;
+}
+
+.Pantalla {
+
+  width: 190px;
+  height: 190px;
+  clip-path: polygon(10% 0%, 80% 0%, 100% 0, 100% 80%, 100% 100%, 20% 100%, 0% 80%, 0 0);
+  background-color: rgba(153, 202, 154, 255);
+  border: 2px solid black;
+}
+.elementosInf{
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:center;
+}
+.luzRoja {
+  width: 7px;
+  height: 7px;
+  border-radius: 50% ;
+  border: 1.5px solid black;
+  background: rgba(247, 0, 0, 255);
+}
+
+.tresLineas{
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 3px
+}
+.linea1{
+  border-radius: 6px;
+  height: 3px;
+  width: 20px;
+  background-color: black;
+}
+.comandosInferior{
+
+  /*  */
+  display: flex;
+  align-items:baseline;
+  flex-direction:row;
+  justify-content: space-around;
+}
+.circuloNegroInf{
+  width: 35px;
+  height: 35px;
+  border-radius: 50% ;
+  border: 2px solid black;
+  background: rgba(89,89,91,255);
+}
+.PantallaInferior{
+  width: 150px;
+  height: 70px;
+  margin-left: 20px;
+  background: rgba(51,203,103,255);
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.cruz{
+  width: 81px;
+    height: 20px
+
+}
+.arriba{
+  margin-left: 32px;
+  width: 20px;
+  height: 20px;
+  background: rgba(89,89,91,255);
+  border: 2px  solid black;
+}
+.abajo{
+  width: 80px;
+  height:20px;
+  background: rgba(89,89,91,255);
+  border: 2px solid black;
+}
+.left{
+  margin-right: 1px;:
+  width: 20px;
+  height: 20px;
+  background: rgba(89,89,91,255);
+  border: 2px solid black;
+}
+.parlante{
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin-top: 40px;
+margin-right: 150px;
+}
+
+.audio{
+  margin: 3px;
+  width: 10px;
+  height: 10px;
+  border-radius:50%;
+  background: black;
+  justify-content: space-between;
+}
+
+.pokerigth{
+  width: 450px;
+  height: 552px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  background: rgb(245, 7, 101);
+  border-radius: 0px 30px 30px 0px
+}
+.pantallaStats{
+  margin-top: 10px;
+  margin-bottom: 30px;
+  width: 260px;
+  height: 140px;
+  border: 2px solid black;
+  background: rgba(89,89,91,255);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Teclado{
+  width: 300px;
+  height: 170px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  background: rgb(213, 0, 84)
+}
+.tecla{
+  padding: 0px 0px 0px;
+  float: left;
+
+}
+.tecla > span{
+  margin: 3px;
+  background-color: rgba(134,189,254,255);
+  height: 30px;
+  padding-top: 5px;
+  padding-left: 1px;
+  padding-right: 1px;
+  display: inline-block;
+  font-family: Verdana;
+  color: black;
+  font-size: 15px;
+  border-radius: 1px 1px 4px 4px;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.tecla > span:hover{
+  background-color: #666;
+  cursor: pointer;
+}
+.tecla > span:active{
+  background-color: #555;
+  cursor: pointer;
+}
+.tecla-letra > span{
+  width: 21px;
+}
+.tecla-space-bar span{
+  width: 80px;
+}
+.tecla-backspace span{
+  width: 60px;
+  font-size: 15px;
+  line-height: 27px;
+  text-transform: none;
+}
+.tecla-enter span{
+  width: 60px;
+  font-size: 15px;
+  text-transform: none;
+  line-height: 27px;
+  text-align: center;
+}
+.botonesDeco{
+  margin-top: 20px;
+  display: flex;
+  /* background: grey; */
+  width: 360px;
+  height: 100px;
+}
+.dosCuadrados{
+  display:inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(217, 203, 185);
+  border: 2px solid black;
+  margin-top: 15px;
+  margin-right: 5px;
+}
+.pad{
+  display:flex;
+  margin: 0;
+  margin-bottom: 3px;
+  margin-right: 3px;
+}
+.bolaAmarilla{
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid black;
+  align-items: center;
+  background: yellow;
+  justify-content: flex-end;
+  margin-left: 10px;
+  margin-top: 40px
+}
+.rectangulo{
+  width: 50px;
+  height: 7px;
+  background: black;
+  margin-right: 7px;
+  border-radius: 7px;
+}
+.RectangulsoGrandes{
+  display: inline-flex;
+  width: 100px;
+  height: 50px;
+  background: rgba(89,89,91,255);
+  border-radius: 10px;
+  border: 2px solid black;
+}
