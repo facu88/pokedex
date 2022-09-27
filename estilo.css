@@ -251,6 +251,8 @@ background-color: rgba(153, 202, 154, 255);
 }
 form input{
   background-color: rgba(153, 202, 154, 255);
+  border: 0px;
+  outline: double;
 
 }
 .Teclado{
@@ -268,7 +270,8 @@ form input{
 
 }
 
-.tecla > span{
+.tecla{
+
   margin: 3px;
   background-color: rgba(134,189,254,255);
   height: 30px;
@@ -293,10 +296,10 @@ form input{
   background-color: #555;
   cursor: pointer;
 }
-.tecla-letra > span{
-  width: 21px;
+.tecla-letra {
+  width: 24px;
 }
-.tecla-space-bar span{
+.tecla-space-bar {
   width: 80px;
 }
 .tecla-backspace span{
@@ -306,6 +309,7 @@ form input{
   text-transform: none;
 }
 .tecla-enter span{
+  text-decoration: none;
   width: 60px;
   font-size: 15px;
   text-transform: none;
